@@ -141,7 +141,9 @@ a:focus-visible {
 }
 
 .frame--footer {
-	grid-template-columns: 1fr auto 1fr;
+	display: block;
+	line-height: 2;
+	text-align: center;
 }
 
 .frame__title {
@@ -189,7 +191,7 @@ a:focus-visible {
 .content__text {
 	font-weight: 300;
 	line-height: 1.1;
-	font-size: 2.5rem;
+	font-size: clamp(1rem,5vw,2.5rem);
 	margin: 2rem 0 0 0;
 	max-width: 1350px;
 	hyphens: auto;
@@ -217,18 +219,9 @@ a:focus-visible {
 	width: 92%;
 	margin: 2rem auto;
 	display: grid;
-	grid-template-columns: repeat(13,1fr);
+	grid-template-columns: repeat(5,1fr);
 	grid-gap: 1rem;
 	pointer-events: none;
-}
-
-.grid--medium {
-	grid-template-columns: repeat(6,1fr);
-}
-
-.grid--narrow {
-	width: 60%;
-	grid-template-columns: repeat(7,1fr);
 }
 
 .grid__item {
@@ -247,5 +240,23 @@ a:focus-visible {
 
 
 @media screen and (min-width: 53em) {
+	.grid {
+		width: 92%;
+		grid-template-columns: repeat(13,1fr);
+	}
 
+	.grid--medium {
+		grid-template-columns: repeat(6,1fr);
+	}
+
+	.grid--narrow {
+		width: 60%;
+		grid-template-columns: repeat(7,1fr);
+	}
+	.frame--footer {
+		display: grid;
+		line-height: 1;
+		text-align: left;
+		grid-template-columns: 1fr auto 1fr;
+	}
 }
