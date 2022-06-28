@@ -19,6 +19,7 @@ body {
 	font-family: elza, sans-serif;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
+	overflow-x: hidden;
 }
 
 /* Page Loader */
@@ -219,7 +220,7 @@ a:focus-visible {
 	width: 92%;
 	margin: 2rem auto;
 	display: grid;
-	grid-template-columns: repeat(5,1fr);
+	grid-template-columns: repeat(4,1fr);
 	grid-gap: 1rem;
 	pointer-events: none;
 }

@@ -17,6 +17,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   margin: 0;
   font-family: elza, sans-serif;
+  overflow-x: hidden;
 }
 
 .js .loading:before, .js .loading:after {
@@ -204,7 +205,7 @@ a:focus-visible {
   width: 92%;
   grid-gap: 1rem;
   pointer-events: none;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   margin: 2rem auto;
   display: grid;
 }
