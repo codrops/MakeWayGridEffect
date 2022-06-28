@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Make Way Grid Effect | Codrops</title>
+	<meta name="description" content="A little grid interaction effect where adjoining items make way to a selected one that expands." />
+	<meta name="keywords" content="grid, effect, expanding, animation, adjoining, neighbouring, adjacent, image, css" />
+	<meta name="author" content="Codrops" />
+	<link rel="shortcut icon" href="favicon.ico">
+	<link rel="stylesheet" href="https://use.typekit.net/mrt0qkw.css">
+	<link rel="stylesheet" type="text/css" href="css/base.css" />
+	<script>document.documentElement.className="js";var supportsCssVars=function(){var e,t=document.createElement("style");return t.innerHTML="root: { --tmp-var: bold; }",document.head.appendChild(t),e=!!(window.CSS&&window.CSS.supports&&window.CSS.supports("font-weight","var(--tmp-var)")),t.parentNode.removeChild(t),e};supportsCssVars()||alert("Please view this demo in a modern browser that supports CSS Variables.");</script>
+	<script src="//tympanus.net/codrops/adpacks/analytics.js"></script>
+</head>
+
+<body class="loading">
+	<main>
+		<div class="frame">
+			<div class="frame__title">
+				<h1 class="frame__title-main">Make Way Grid Effect</h1>
+				<a aria-label="Back to the article" class="frame__title-back" href="https://tympanus.net/codrops/?p=63990">
+					<span class="oh__inner">Back to the article</span>
+					<svg width="18px" height="18px" viewBox="0 0 24 24">
+						<path d="M18.25 15.5a.75.75 0 00.75-.75v-9a.75.75 0 00-.75-.75h-9a.75.75 0 000 1.5h7.19L6.22 16.72a.75.75 0 101.06 1.06L17.5 7.56v7.19c0 .414.336.75.75.75z"></path>
+					</svg>
+				</a>
+			</div>
+		</div>
+		<div class="content">
+			<p class="content__text"><img class="content__text-img" src="img/9.jpg" alt="Some dude" />Henry Charles Bukowski was a German-born American poet, novelist, and short story writer.</p>
+			<h3 class="content__title">Early years</h3>
+			<div class="grid" data-duration="0.7" data-ease="expo">
+				<div class="grid__item">
+					<div class="grid__item-img" style="background-image:url(img/1.jpg)"></div>
+				</div>
+				<div class="grid__item">
+					<div class="grid__item-img" style="background-image:url(img/2.jpg)"></div>
+				</div>
+				<div class="grid__item">
+					<div class="grid__item-img" style="background-image:url(img/3.jpg)"></div>
+				</div>
+				<div class="grid__item">
+					<div class="grid__item-img" style="background-image:url(img/4.jpg)"></div>
+				</div>
+				<div class="grid__item">
+					<div class="grid__item-img" style="background-image:url(img/5.jpg)"></div>
+				</div>
+				<div class="grid__item">
+					<div class="grid__item-img" style="background-image:url(img/6.jpg)"></div>
+				</div>
+				<div class="grid__item">
+					<div class="grid__item-img" style="background-image:url(img/7.jpg)"></div>
+				</div>
+				<div class="grid__item">
+					<div class="grid__item-img" style="background-image:url(img/8.jpg)"></div>
+				</div>
+				<div class="grid__item">
+					<div class="grid__item-img" style="background-image:url(img/10.jpg)"></div>
+				</div>
+				<div class="grid__item">
+					<div class="grid__item-img" style="background-image:url(img/11.jpg)"></div>
+				</div>
+				<div class="grid__item">
+					<div class="grid__item-img" style="background-image:url(img/12.jpg)"></div>
+				</div>
+				<div class="grid__item">
+					<div class="grid__item-img" style="background-image:url(img/13.jpg)"></div>
+				</div>
+				<div class="grid__item">
+					<div class="grid__item-img" style="background-image:url(img/14.jpg)"></div>
+				</div>
+				<div class="grid__item">
+					<div class="grid__item-img" style="background-image:url(img/15.jpg)"></div>
+				</div>
+				<div class="grid__item">
+					<div class="grid__item-img" style="background-image:url(img/16.jpg)"></div>
+				</div>
+				<div class="grid__item">
+					<div class="grid__item-img" style="background-image:url(img/17.jpg)"></div>
+				</div>
+				<div class="grid__item">
+					<div class="grid__item-img" style="background-image:url(img/18.jpg)"></div>
+				</div>
+				<div class="grid__item">
+					<div class="grid__item-img" style="background-image:url(img/19.jpg)"></div>
+				</div>
+				<div class="grid__item">
+					<div class="grid__item-img" style="background-image:url(img/20.jpg)"></div>
+				</div>
+				<div class="grid__item">
+					<div class="grid__item-img" style="background-image:url(img/21.jpg)"></div>
+				</div>
+				<div class="grid__item">
+					<div class="grid__item-img" style="background-image:url(img/22.jpg)"></div>
+				</div>
+				<div class="grid__item">
+					<div class="grid__item-img" style="background-image:url(img/23.jpg)"></div>
+				</div>
+				<div class="grid__item">
+					<div class="grid__item-img" style="background-image:url(img/24.jpg)"></div>
+				</div>
+				<div class="grid__item">
+					<div class="grid__item-img" style="background-image:url(img/25.jpg)"></div>
+				</div>
+				<div class="grid__item">
+					<div class="grid__item-img" style="background-image:url(img/26.jpg)"></div>
+				</div>
+				<div class="grid__item">
+					<div class="grid__item-img" style="background-image:url(img/27.jpg)"></div>
+				</div>
+				<div class="grid__item">
+					<div class="grid__item-img" style="background-image:url(img/28.jpg)"></div>
+				</div>
+				<div class="grid__item">
+					<div class="grid__item-img" style="background-image:url(img/29.jpg)"></div>
+				</div>
+				<div class="grid__item">
+					<div class="grid__item-img" style="background-image:url(img/30.jpg)"></div>
+				</div>
+				<div class="grid__item">
+					<div class="grid__item-img" style="background-image:url(img/31.jpg)"></div>
+				</div>
+				<div class="grid__item">
+					<div class="grid__item-img" style="background-image:url(img/32.jpg)"></div>
+				</div>
+				<div class="grid__item">
+					<div class="grid__item-img" style="background-image:url(img/33.jpg)"></div>
+				</div>
+				<div class="grid__item">
+					<div class="grid__item-img" style="background-image:url(img/34.jpg)"></div>
+				</div>
+				<div class="grid__item">
+					<div class="grid__item-img" style="background-image:url(img/35.jpg)"></div>
+				</div>
+				<div class="grid__item">
+					<div class="grid__item-img" style="background-image:url(img/36.jpg)"></div>
+				</div>
+				<div class="grid__item">
+					<div class="grid__item-img" style="background-image:url(img/37.jpg)"></div>
+				</div>
+				<div class="grid__item">
+					<div class="grid__item-img" style="background-image:url(img/38.jpg)"></div>
+				</div>
+				<div class="grid__item">
+					<div class="grid__item-img" style="background-image:url(img/39.jpg)"></div>
+				</div>
+				<div class="grid__item">
+					<div class="grid__item-img" style="background-image:url(img/40.jpg)"></div>
+				</div>
+			</div>
+			<a class="content__more">view more</a>
+			<p class="content__text">
+				His writing was influenced by the social, cultural, and economic ambience of his home city of Los Angeles. His work addresses the ordinary lives of poor Americans, the act of writing, alcohol, relationships with women, and the drudgery of work. Bukowski wrote thousands of poems, hundreds of short stories and six novels, eventually publishing over 60 books.
+			</p>
+			<h3 class="content__title">Later life</h3>
+			<div class="grid grid--medium" data-duration="0.8" data-ease="expo" data-scale="1.5" data-max-rotation="8" data-spread="100" data-max-distance="2000">
+				<div class="grid__item">
+					<div class="grid__item-img" style="background-image:url(img/1.jpg)"></div>
+				</div>
+				<div class="grid__item">
+					<div class="grid__item-img" style="background-image:url(img/2.jpg)"></div>
+				</div>
+				<div class="grid__item">
+					<div class="grid__item-img" style="background-image:url(img/3.jpg)"></div>
+				</div>
+				<div class="grid__item">
+					<div class="grid__item-img" style="background-image:url(img/4.jpg)"></div>
+				</div>
+				<div class="grid__item">
+					<div class="grid__item-img" style="background-image:url(img/5.jpg)"></div>
+				</div>
+				<div class="grid__item">
+					<div class="grid__item-img" style="background-image:url(img/6.jpg)"></div>
+				</div>
+				<div class="grid__item">
+					<div class="grid__item-img" style="background-image:url(img/7.jpg)"></div>
+				</div>
+				<div class="grid__item">
+					<div class="grid__item-img" style="background-image:url(img/8.jpg)"></div>
+				</div>
+				<div class="grid__item">
+					<div class="grid__item-img" style="background-image:url(img/10.jpg)"></div>
+				</div>
+				<div class="grid__item">
+					<div class="grid__item-img" style="background-image:url(img/11.jpg)"></div>
+				</div>
+				<div class="grid__item">
+					<div class="grid__item-img" style="background-image:url(img/12.jpg)"></div>
+				</div>
+				<div class="grid__item">
+					<div class="grid__item-img" style="background-image:url(img/13.jpg)"></div>
+				</div>
+				<div class="grid__item">
+					<div class="grid__item-img" style="background-image:url(img/14.jpg)"></div>
+				</div>
+				<div class="grid__item">
+					<div class="grid__item-img" style="background-image:url(img/15.jpg)"></div>
+				</div>
+				<div class="grid__item">
+					<div class="grid__item-img" style="background-image:url(img/16.jpg)"></div>
+				</div>
+				<div class="grid__item">
+					<div class="grid__item-img" style="background-image:url(img/17.jpg)"></div>
+				</div>
+				<div class="grid__item">
+					<div class="grid__item-img" style="background-image:url(img/18.jpg)"></div>
+				</div>
+				<div class="grid__item">
+					<div class="grid__item-img" style="background-image:url(img/19.jpg)"></div>
+				</div>
+			</div>
+			<a class="content__more">view more</a>
+			<p class="content__text">
+				Since his death in March 1994, Bukowski has been the subject of a number of critical articles and books about both his life and writings, despite his work having received relatively little attention from academic critics in the United States during his lifetime. In contrast, Bukowski enjoyed extraordinary fame in Europe, the UK and particularly in Germany, the place of his birth.
+			</p>
+			<h3 class="content__title">Writings</h3>
+			<div class="grid grid--narrow" data-duration="1" data-ease="elastic.out(0.5)" data-scale="3" data-max-rotation="20" data-spread="150" data-max-distance="700">
+				<div class="grid__item">
+					<div class="grid__item-img" style="background-image:url(img/13.jpg)"></div>
+				</div>
+				<div class="grid__item">
+					<div class="grid__item-img" style="background-image:url(img/14.jpg)"></div>
+				</div>
+				<div class="grid__item">
+					<div class="grid__item-img" style="background-image:url(img/15.jpg)"></div>
+				</div>
+				<div class="grid__item">
+					<div class="grid__item-img" style="background-image:url(img/16.jpg)"></div>
+				</div>
+				<div class="grid__item">
+					<div class="grid__item-img" style="background-image:url(img/17.jpg)"></div>
+				</div>
+				<div class="grid__item">
+					<div class="grid__item-img" style="background-image:url(img/18.jpg)"></div>
+				</div>
+				<div class="grid__item">
+					<div class="grid__item-img" style="background-image:url(img/19.jpg)"></div>
+				</div>
+				<div class="grid__item">
+					<div class="grid__item-img" style="background-image:url(img/20.jpg)"></div>
+				</div>
+				<div class="grid__item">
+					<div class="grid__item-img" style="background-image:url(img/21.jpg)"></div>
+				</div>
+				<div class="grid__item">
+					<div class="grid__item-img" style="background-image:url(img/22.jpg)"></div>
+				</div>
+				<div class="grid__item">
+					<div class="grid__item-img" style="background-image:url(img/23.jpg)"></div>
+				</div>
+				<div class="grid__item">
+					<div class="grid__item-img" style="background-image:url(img/24.jpg)"></div>
+				</div>
+				<div class="grid__item">
+					<div class="grid__item-img" style="background-image:url(img/25.jpg)"></div>
+				</div>
+				<div class="grid__item">
+					<div class="grid__item-img" style="background-image:url(img/26.jpg)"></div>
+				</div>
+				<div class="grid__item">
+					<div class="grid__item-img" style="background-image:url(img/27.jpg)"></div>
+				</div>
+				<div class="grid__item">
+					<div class="grid__item-img" style="background-image:url(img/28.jpg)"></div>
+				</div>
+				<div class="grid__item">
+					<div class="grid__item-img" style="background-image:url(img/29.jpg)"></div>
+				</div>
+				<div class="grid__item">
+					<div class="grid__item-img" style="background-image:url(img/1.jpg)"></div>
+				</div>
+				<div class="grid__item">
+					<div class="grid__item-img" style="background-image:url(img/31.jpg)"></div>
+				</div>
+				<div class="grid__item">
+					<div class="grid__item-img" style="background-image:url(img/32.jpg)"></div>
+				</div>
+				<div class="grid__item">
+					<div class="grid__item-img" style="background-image:url(img/33.jpg)"></div>
+				</div>
+				<div class="grid__item">
+					<div class="grid__item-img" style="background-image:url(img/34.jpg)"></div>
+				</div>
+				<div class="grid__item">
+					<div class="grid__item-img" style="background-image:url(img/35.jpg)"></div>
+				</div>
+				<div class="grid__item">
+					<div class="grid__item-img" style="background-image:url(img/36.jpg)"></div>
+				</div>
+				<div class="grid__item">
+					<div class="grid__item-img" style="background-image:url(img/37.jpg)"></div>
+				</div>
+				<div class="grid__item">
+					<div class="grid__item-img" style="background-image:url(img/38.jpg)"></div>
+				</div>
+				<div class="grid__item">
+					<div class="grid__item-img" style="background-image:url(img/39.jpg)"></div>
+				</div>
+				<div class="grid__item">
+					<div class="grid__item-img" style="background-image:url(img/40.jpg)"></div>
+				</div>
+			</div>
+			<a class="content__more">view more</a>
+			<p class="content__text">
+			   Several of Bukowski's poems were published in the late 1950s in Gallows, a small poetry magazine published briefly (the magazine lasted for two issues) by Jon Griffith. The small avant-garde literary magazine Nomad, published by Anthony Linick and Donald Factor (the son of Max Factor Jr.), offered a home to Bukowski's early work. Nomad's inaugural issue in 1959 featured two of his poems. A year later, Nomad published one of Bukowski's best known essays, Manifesto: A Call for Our Own Critics.
+			</p>
+			<h3 class="content__title">Death and legacy</h3>
+			<div class="grid" data-duration="0.6" data-ease="power3" data-skew="10" data-scale="3.2" data-max-rotation="10">
+				<div class="grid__item">
+					<div class="grid__item-img" style="background-image:url(img/1.jpg)"></div>
+				</div>
+				<div class="grid__item">
+					<div class="grid__item-img" style="background-image:url(img/2.jpg)"></div>
+				</div>
+				<div class="grid__item">
+					<div class="grid__item-img" style="background-image:url(img/3.jpg)"></div>
+				</div>
+				<div class="grid__item">
+					<div class="grid__item-img" style="background-image:url(img/4.jpg)"></div>
+				</div>
+				<div class="grid__item">
+					<div class="grid__item-img" style="background-image:url(img/5.jpg)"></div>
+				</div>
+				<div class="grid__item">
+					<div class="grid__item-img" style="background-image:url(img/6.jpg)"></div>
+				</div>
+				<div class="grid__item">
+					<div class="grid__item-img" style="background-image:url(img/7.jpg)"></div>
+				</div>
+				<div class="grid__item">
+					<div class="grid__item-img" style="background-image:url(img/8.jpg)"></div>
+				</div>
+				<div class="grid__item">
+					<div class="grid__item-img" style="background-image:url(img/10.jpg)"></div>
+				</div>
+				<div class="grid__item">
+					<div class="grid__item-img" style="background-image:url(img/11.jpg)"></div>
+				</div>
+				<div class="grid__item">
+					<div class="grid__item-img" style="background-image:url(img/12.jpg)"></div>
+				</div>
+				<div class="grid__item">
+					<div class="grid__item-img" style="background-image:url(img/13.jpg)"></div>
+				</div>
+				<div class="grid__item">
+					<div class="grid__item-img" style="background-image:url(img/14.jpg)"></div>
+				</div>
+				<div class="grid__item">
+					<div class="grid__item-img" style="background-image:url(img/15.jpg)"></div>
+				</div>
+				<div class="grid__item">
+					<div class="grid__item-img" style="background-image:url(img/16.jpg)"></div>
+				</div>
+				<div class="grid__item">
+					<div class="grid__item-img" style="background-image:url(img/17.jpg)"></div>
+				</div>
+				<div class="grid__item">
+					<div class="grid__item-img" style="background-image:url(img/18.jpg)"></div>
+				</div>
+				<div class="grid__item">
+					<div class="grid__item-img" style="background-image:url(img/19.jpg)"></div>
+				</div>
+				<div class="grid__item">
+					<div class="grid__item-img" style="background-image:url(img/20.jpg)"></div>
+				</div>
+				<div class="grid__item">
+					<div class="grid__item-img" style="background-image:url(img/21.jpg)"></div>
+				</div>
+				<div class="grid__item">
+					<div class="grid__item-img" style="background-image:url(img/22.jpg)"></div>
+				</div>
+				<div class="grid__item">
+					<div class="grid__item-img" style="background-image:url(img/23.jpg)"></div>
+				</div>
+				<div class="grid__item">
+					<div class="grid__item-img" style="background-image:url(img/24.jpg)"></div>
+				</div>
+				<div class="grid__item">
+					<div class="grid__item-img" style="background-image:url(img/25.jpg)"></div>
+				</div>
+				<div class="grid__item">
+					<div class="grid__item-img" style="background-image:url(img/26.jpg)"></div>
+				</div>
+				<div class="grid__item">
+					<div class="grid__item-img" style="background-image:url(img/27.jpg)"></div>
+				</div>
+				<div class="grid__item">
+					<div class="grid__item-img" style="background-image:url(img/28.jpg)"></div>
+				</div>
+				<div class="grid__item">
+					<div class="grid__item-img" style="background-image:url(img/29.jpg)"></div>
+				</div>
+				<div class="grid__item">
+					<div class="grid__item-img" style="background-image:url(img/30.jpg)"></div>
+				</div>
+				<div class="grid__item">
+					<div class="grid__item-img" style="background-image:url(img/31.jpg)"></div>
+				</div>
+				<div class="grid__item">
+					<div class="grid__item-img" style="background-image:url(img/32.jpg)"></div>
+				</div>
+				<div class="grid__item">
+					<div class="grid__item-img" style="background-image:url(img/33.jpg)"></div>
+				</div>
+				<div class="grid__item">
+					<div class="grid__item-img" style="background-image:url(img/34.jpg)"></div>
+				</div>
+				<div class="grid__item">
+					<div class="grid__item-img" style="background-image:url(img/35.jpg)"></div>
+				</div>
+				<div class="grid__item">
+					<div class="grid__item-img" style="background-image:url(img/36.jpg)"></div>
+				</div>
+				<div class="grid__item">
+					<div class="grid__item-img" style="background-image:url(img/37.jpg)"></div>
+				</div>
+				<div class="grid__item">
+					<div class="grid__item-img" style="background-image:url(img/38.jpg)"></div>
+				</div>
+				<div class="grid__item">
+					<div class="grid__item-img" style="background-image:url(img/39.jpg)"></div>
+				</div>
+				<div class="grid__item">
+					<div class="grid__item-img" style="background-image:url(img/40.jpg)"></div>
+				</div>
+				<div class="grid__item">
+					<div class="grid__item-img" style="background-image:url(img/41.jpg)"></div>
+				</div>
+				<div class="grid__item">
+					<div class="grid__item-img" style="background-image:url(img/42.jpg)"></div>
+				</div>
+				<div class="grid__item">
+					<div class="grid__item-img" style="background-image:url(img/43.jpg)"></div>
+				</div>
+				<div class="grid__item">
+					<div class="grid__item-img" style="background-image:url(img/1.jpg)"></div>
+				</div>
+				<div class="grid__item">
+					<div class="grid__item-img" style="background-image:url(img/2.jpg)"></div>
+				</div>
+				<div class="grid__item">
+					<div class="grid__item-img" style="background-image:url(img/3.jpg)"></div>
+				</div>
+				<div class="grid__item">
+					<div class="grid__item-img" style="background-image:url(img/4.jpg)"></div>
+				</div>
+				<div class="grid__item">
+					<div class="grid__item-img" style="background-image:url(img/5.jpg)"></div>
+				</div>
+				<div class="grid__item">
+					<div class="grid__item-img" style="background-image:url(img/6.jpg)"></div>
+				</div>
+				<div class="grid__item">
+					<div class="grid__item-img" style="background-image:url(img/7.jpg)"></div>
+				</div>
+				<div class="grid__item">
+					<div class="grid__item-img" style="background-image:url(img/8.jpg)"></div>
+				</div>
+				<div class="grid__item">
+					<div class="grid__item-img" style="background-image:url(img/9.jpg)"></div>
+				</div>
+				<div class="grid__item">
+					<div class="grid__item-img" style="background-image:url(img/10.jpg)"></div>
+				</div>
+				<div class="grid__item">
+					<div class="grid__item-img" style="background-image:url(img/11.jpg)"></div>
+				</div>
+				<div class="grid__item">
+					<div class="grid__item-img" style="background-image:url(img/12.jpg)"></div>
+				</div>
+				<div class="grid__item">
+					<div class="grid__item-img" style="background-image:url(img/13.jpg)"></div>
+				</div>
+				<div class="grid__item">
+					<div class="grid__item-img" style="background-image:url(img/14.jpg)"></div>
+				</div>
+				<div class="grid__item">
+					<div class="grid__item-img" style="background-image:url(img/15.jpg)"></div>
+				</div>
+				<div class="grid__item">
+					<div class="grid__item-img" style="background-image:url(img/16.jpg)"></div>
+				</div>
+				<div class="grid__item">
+					<div class="grid__item-img" style="background-image:url(img/17.jpg)"></div>
+				</div>
+				<div class="grid__item">
+					<div class="grid__item-img" style="background-image:url(img/18.jpg)"></div>
+				</div>
+				<div class="grid__item">
+					<div class="grid__item-img" style="background-image:url(img/19.jpg)"></div>
+				</div>
+				<div class="grid__item">
+					<div class="grid__item-img" style="background-image:url(img/20.jpg)"></div>
+				</div>
+				<div class="grid__item">
+					<div class="grid__item-img" style="background-image:url(img/21.jpg)"></div>
+				</div>
+				<div class="grid__item">
+					<div class="grid__item-img" style="background-image:url(img/22.jpg)"></div>
+				</div>
+				<div class="grid__item">
+					<div class="grid__item-img" style="background-image:url(img/23.jpg)"></div>
+				</div>
+			</div>
+			<a class="content__more">view more</a>
+		</div>
+		<div class="frame frame--footer">
+			<div class="frame__author">
+				<a href="https://twitter.com/codrops">Made by Codrops</a>
+			</div>
+			<div class="frame__info">Text from <a href="https://en.wikipedia.org/wiki/Charles_Bukowski">Wikipedia</a></div>
+			<div class="frame__credits">Original effect by <a href="https://twitter.com/AlexFisla/status/1519701245770047489">Alex Frison da Isla</a></div>
+		</div>
+	</main>
+	<script type="module" src="js/index.js"></script>
+	<script src="https://tympanus.net/codrops/adpacks/cda.js"></script>
+</body>
+
+</html>
